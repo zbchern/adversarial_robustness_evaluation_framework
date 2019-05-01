@@ -1,0 +1,31 @@
+{
+  "__comment": "pgd",
+  "pgd_epsilon": 0.0627,
+  "pgd_step_size": 0.0157,
+  "pgd_niter": 2,
+  "pgd_clip_min": -1.0,
+  "pgd_clip_max": 1.0,
+
+  "__comment": "fgm",
+  "fgm_epsilon": 0.0314,
+  "fgm_niter": 1,
+  "fgm_clip_min": -1.0,
+  "fgm_clip_max": 1.0,
+
+  "__comment": "deep_fool",
+  "df_eta": 0.01,
+  "df_niter": 3,
+  "df_clip_min": -1.0,
+  "df_clip_max": 1.0,
+
+  "__comment": "jsma",
+  "jsma_epsilon": 0.04,
+  "jsma_epochs": 12,
+  "jsma_k": 1,
+  "jsma_clip_min": -1.0,
+  "jsma_clip_max": 1.0,
+
+  "__comment": "cw",
+  "cw_clip_min": -1.0,
+  "cw_clip_max": 1.0
+}
